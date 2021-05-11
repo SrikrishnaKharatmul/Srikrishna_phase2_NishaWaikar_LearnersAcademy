@@ -20,8 +20,8 @@
 	height:100vh;
 	font-family:"Montserrat",Sans-serif;
 	font-weight:600px;
-	font-size:32px;
-	background-color:black;
+	font-size:24px;
+	background-color:#a6363b;
 	color:white;
 	text-align:center;
 	padding:200px 0px;
@@ -49,37 +49,41 @@ display:block;
 color:white;
 text-decoration:none;
 margin:8px 0px;
-font-size:34px;
+font-size:28px;
 transition-duration: 0.6s;
 transition-delay:0.5s ease;
-color:#fb3640;
+color:#d9f1f1;
 }
 h1
 {
 text-align:center;
 font-family:"Montserrat",Sans-serif;
 }
+#click{
+	color:#000;
+}
 #logout
 {
-color:#fb3640;
+color:#fff;
 font-size:20px;
 position:absolute;
 top:10px;
-left:350px;
+left:30px;
 }
 </style>
 </head>
 <body>
 	<div class="row">
-	<div id="box1" class="col-lg-4">
+	<div id="box1" class="col-lg-3">
 		<a id="logout" href="Login.jsp">Logout</a>
 		<a href="HomePage.jsp">Class Report</a>
 		<a href="AssignClasses.jsp">Assign Classes</a>
 		<a href="AssignTeachers.jsp">Assign Teachers</a>
 		<a href="Studentlist.jsp">Students List</a>
 	</div>
-	<div id="box2" class="col-lg-8">
+	<div id="box2" class="col-lg-9">
 		<h1>Class Report</h1>
+		<hr>
 		<table class="table table-dark table-striped">
 			<thead>
 				<tr>
@@ -91,8 +95,8 @@ left:350px;
 				</tr>
 			</thead>
 			<tbody>
-		<h2>loggged in</h2>
-				</tbody>
+				<p><a id="click" href="classes.jsp">Click Here</a>To Go Database Administration</p>
+			</tbody>
 			</table>
 		</div>
 	</div>

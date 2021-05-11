@@ -22,8 +22,8 @@
 	height:100vh;
 	font-family:"Montserrat",Sans-serif;
 	font-weight:600px;
-	font-size:32px;
-	background-color:black;
+	font-size:24px;
+	background-color:#a6363b;
 	color:white;
 	text-align:center;
 	padding:200px 0px;
@@ -51,10 +51,10 @@ display:block;
 color:white;
 text-decoration:none;
 margin:8px 0px;
-font-size:34px;
+font-size:28px;
 transition-duration: 0.6s;
 transition-delay:0.5s ease;
-color:#fb3640;
+color:#d9f1f1;
 }
 h1
 {
@@ -63,11 +63,11 @@ font-family:"Montserrat",Sans-serif;
 }
 #logout
 {
-color:#fb3640;
+color:#fff;
 font-size:20px;
 position:absolute;
 top:10px;
-left:350px;
+left:30px;
 }
 </style>
 </head>
@@ -75,7 +75,7 @@ left:350px;
 	<div class="row">
 	<div id="box1" class="col-lg-4">
 		<a id="logout" href="Login.jsp">Logout</a>
-		<a href="classreport.jsp">Class Report</a>
+		<a href="classes.jsp">Class Report</a>
 		<a href="students.jsp">Student Details</a>
 		<a href="teachers.jsp">Teacher Details</a>
 		<a href="subjects.jsp">All Subjects</a>
@@ -89,7 +89,7 @@ left:350px;
 			<thead>
 				<tr>
 					<th>Student Id</th>
-					<th>Class</th>
+					<th>Classes</th>
 					<th>Student Name</th>
 					<th>Class Teacher</th>
 				</tr>

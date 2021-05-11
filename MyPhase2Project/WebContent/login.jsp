@@ -9,7 +9,7 @@
 <body>
 	<div align="center">
 		<h1>Admin Login Form</h1>
-		<form action="<%=request.getContextPath()%>/classreport.jsp" method="post">
+		<form action="<%=request.getContextPath()%>/loginsuccessful.jsp" method="post">
 			<table style="with: 100%">
 				<tr>
 					<td>UserName</td>
@@ -23,6 +23,7 @@
 			</table>
 			<input type="submit" value="Submit" />
 		</form>
+		<h4>Developed by:Srikrishna Ganpatrao Kharatmul</h4>
 	</div>
 </body>
 </html>
